@@ -119,12 +119,12 @@ export default function Navbar({ user }) {
       </div>
 
       <div className="navbar-end">
-          <ul className="menu menu-horizontal pl-1 pr-4">
+          <ul className="menu menu-horizontal">
           {user ? (
             <li>
               <details>
-                <summary className="hover:bg-gray-700 rounded-full text-lg">{user.firstName} {user.lastName}</summary>
-                <ul className="p-2 text-lg z-[1]">
+                <summary className="hover:bg-gray-700 rounded-full text-lg mr-7">{user.firstName} {user.lastName}</summary>
+                <ul className="p-2 text-lg z-[1] text-black">
                   <li><a>Account</a></li>
                   <li><a>Settings</a></li>
                   <li>
